@@ -1,7 +1,15 @@
 @media (max-width: 992px) {
+    .headerSection {
+        height: 75px;
+    }
+    .imgLogo {
+    height: 60px;
+    width: 60px;
+  }  
   .heroSection h2 {
     width: 100%;
   }
+
   .headerNav {
     display: none;
   }
