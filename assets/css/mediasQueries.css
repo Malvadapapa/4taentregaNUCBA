@@ -46,6 +46,16 @@ display: none;
     .descriptionSection{
         overflow: hidden;
     }
+    .textContainer h3 {
+        font-size: 40px;
+      }
+
+      .textContainer p {
+        font-size: 20px;
+        line-height: 30px;
+        width: 100%;
+        font-style: italic;
+      }
 }
 @media  (max-width: 660px){
     .heroSection video {
@@ -55,6 +65,18 @@ display: none;
       .heroSection h2{
      font-size: 30px;
  
+    }
+    .descriptionSection{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.616)), url(/assets/pizzaDescription.jpg);
+        background-size: cover;
+  
+    }
+    .textContainer{
+        width: 80%;
+    }
+
+    .descriptionSection img{
+        display: none;
     }
     .cardsSection{
         width: 100%;
@@ -72,7 +94,23 @@ display: none;
         font-size: 20px;
     
        }
+ 
+       .cardsSection--CardsContainer{
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow: scroll;
+        padding-left: 100px;
+        padding-right: 20px;
+        
+    }
+    .CardsContainer--card {
+       min-width: 200px;
+        height: 300px;
+        justify-content: flex-start;
+ 
+    }
        .footerSection{
-        font-size: 8px;
+        font-size: 10px;
     }
 }
