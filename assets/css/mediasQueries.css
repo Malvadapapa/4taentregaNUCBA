@@ -1,116 +1,115 @@
+@media (max-width: 992px) {
+  .heroSection h2 {
+    width: 100%;
+  }
+  .headerNav {
+    display: none;
+  }
+  .headerSection label {
+    display: block;
+    font-size: 40px;
+  }
 
-@media  (max-width: 992px) {
- 
-    .heroSection h2{
-        width: 100%;
-    }
-    .headerNav{
-display: none;
-    }
-    .headerSection label{
-        display: block;
-        font-size: 40px;
-    }
- 
-    .headerNav{
-        z-index: 10;
-        position: fixed;
-        width: 100vw;
-        height: 100vh;
-        top: 0;
-        right: 0;
-        background: rgba( 0, 0, 0, 0.7 );
-        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 10px );
-        -webkit-backdrop-filter: blur( 10px );
-        border-radius: 10px;
-        border: 1px solid rgba( 255, 255, 255, 0.18 );
-    }
-    .headerNav label{
-        padding: 30px;
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    .headerNav ul {
-        flex-direction: column;
-        text-align: center;
-        font-size: 30px;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-    }
-    #burgerMenu:checked +.headerNav{
-        display: block;
-    }
-    .descriptionSection{
-        overflow: hidden;
-    }
-    .textContainer h3 {
-        font-size: 40px;
-      }
+  .headerNav {
+    z-index: 10;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  .headerNav label {
+    padding: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .headerNav ul {
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  #burgerMenu:checked + .headerNav {
+    display: block;
+  }
+  .descriptionSection {
+    overflow: hidden;
+  }
+  .textContainer h3 {
+    font-size: 40px;
+  }
 
-      .textContainer p {
-        font-size: 20px;
-        line-height: 30px;
-        width: 100%;
-        font-style: italic;
-      }
+  .textContainer p {
+    font-size: 20px;
+    line-height: 30px;
+    width: 100%;
+    font-style: italic;
+  }
 }
-@media  (max-width: 660px){
-    .heroSection video {
-        object-fit: contain;
-        height: 100%;
-      }
-      .heroSection h2{
-     font-size: 30px;
- 
-    }
-    .descriptionSection{
-        background-image:linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.616)), url(/assets/pizzaDescription.jpg);
-        background-size: cover;
-  
-    }
-    .textContainer{
-        width: 80%;
-    }
+@media (max-width: 660px) {
+  .heroSection video {
+    object-fit: contain;
+    height: 100%;
+  }
+  .heroSection h2 {
+    font-size: 30px;
+  }
+  .descriptionSection {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.959),
+        rgba(0, 0, 0, 0.616)
+      ),
+      url(/assets/pizzaDescription.jpg);
+    background-size: cover;
+  }
+  .textContainer {
+    width: 80%;
+  }
 
-    .descriptionSection img{
-        display: none;
-    }
-    .cardsSection{
-        width: 100%;
-    }
-    .CardsContainer--card {
-        width: 200px;
-        height: 300px;
-    }
-    .footerSection{
-        font-size: 12px;
-    }
+  .descriptionSection img {
+    display: none;
+  }
+  .cardsSection {
+    width: 100%;
+  }
+  .CardsContainer--card {
+    width: 200px;
+    height: 300px;
+  }
+  .footerSection {
+    font-size: 12px;
+  }
 }
-@media  (max-width: 460px){
-    .heroSection h2{
-        font-size: 20px;
-    
-       }
- 
-       .cardsSection--CardsContainer{
-        width: 100%;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        overflow: scroll;
-        padding-left: 100px;
-        padding-right: 20px;
-        
-    }
-    .CardsContainer--card {
-       min-width: 200px;
-        height: 300px;
-        justify-content: flex-start;
- 
-    }
-       .footerSection{
-        font-size: 10px;
-    }
+@media (max-width: 460px) {
+
+  .heroSection h2 {
+    font-size: 20px;
+  }
+  .cardsSection {
+    margin: 0 0;
+  }
+  .cardsSection--CardsContainer {
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    padding-left: 100px;
+    padding-right: 20px;
+  }
+  .CardsContainer--card {
+    min-width: 200px;
+    height: 300px;
+    justify-content: flex-start;
+  }
+  .footerSection {
+    font-size: 10px;
+  }
 }
