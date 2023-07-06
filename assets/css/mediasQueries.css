@@ -89,6 +89,9 @@
   .cardsSection {
     width: 100%;
   }
+  .cardsSection--Title h3{
+    text-align: center;
+  }
   .CardsContainer--card {
     width: 200px;
     height: 300px;
