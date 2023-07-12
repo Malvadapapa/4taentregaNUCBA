@@ -1,12 +1,38 @@
-@media (max-width: 1120px){
-  .contactSection{
+@media (min-width: 1340px) {
+  .heroSection h2 {
+    font-size: 80px;
+  }
+  .textContainer h3 {
+    font-size: 90px;
+  }
+  .textContainer p {
+    font-size: 40px;
+  }
+  .textContainer a {
+    font-size: 40px;
+  }
+  .contactSection {
+    width: 1300px;
+    margin: 50px auto;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .cardsSection--Title h3 {
+    font-size: 70px;
+  }
+  .cardsSection--Title p {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1120px) {
+  .contactSection {
     background-image: url(/assets/pizzasContactSection/1.png);
     background-size: cover;
   }
-  .contactSection--galery{
+  .contactSection--galery {
     display: none;
   }
-  .contactSection--text2{
+  .contactSection--text2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -18,7 +44,6 @@
     color: var(--textColor);
     z-index: 10;
     background: rgba(0, 0, 0, 0.34);
-  
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5.1px);
     -webkit-backdrop-filter: blur(5.1px);
@@ -26,13 +51,13 @@
   }
 }
 @media (max-width: 992px) {
-    .headerSection {
-        height: 75px;
-    }
-    .imgLogo {
+  .headerSection {
+    height: 75px;
+  }
+  .imgLogo {
     height: 60px;
     width: 60px;
-  }  
+  }
   .heroSection h2 {
     width: 100%;
   }
@@ -89,10 +114,8 @@
     width: 100%;
     font-style: italic;
   }
-
 }
 .contactSection {
- 
   height: 850px;
 }
 @media (max-width: 660px) {
@@ -121,7 +144,7 @@
   .cardsSection {
     width: 100%;
   }
-  .cardsSection--Title h3{
+  .cardsSection--Title h3 {
     text-align: center;
   }
   .CardsContainer--card {
@@ -133,7 +156,6 @@
   }
 }
 @media (max-width: 460px) {
-
   .heroSection h2 {
     font-size: 20px;
   }
@@ -156,12 +178,10 @@
     padding: 15px;
   }
   .contactSection--text2 h3:first-child {
-  
     font-size: 35px;
   }
   .contactSection--text2 h3 {
     font-size: 40px;
-
   }
   .footerSection {
     font-size: 10px;
